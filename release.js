@@ -49,7 +49,7 @@ const getProposedTag = currentTag => {
 
 const getReleaseCommand = proposedTag => {
   const generateNotes = '--generate-notes';
-  const date = format(new Date(), 'MM/dd/yyyy');
+  const date = format(new Date(), 'dd/MM/yyyy');
   const title = `--title "[${proposedTag}] ${date}"`;
   const latest = '--latest';
   const draft = '--draft';
