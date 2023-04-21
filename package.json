@@ -1,0 +1,20 @@
+{
+  "name": "terminal-release",
+  "version": "1.0.0",
+  "description": "terminal release script",
+  "main": "index.js",
+  "keywords": ["release", "terminal", "script"],
+  "author": "Asad Razvi",
+  "license": "ISC",
+  "scripts": {
+    "release:patch" :"node ./release.js patch",
+    "release:minor" :"node ./release.js minor",
+    "release:major" :"node ./release.js major"
+  },
+  "devDependencies": {
+    "chalk": "4.1.2",
+    "date-fns": "2.29.3",
+    "semver-increment": "1.0.1",
+    "shelljs": "0.8.5"
+  }
+}
