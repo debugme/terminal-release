@@ -4,7 +4,7 @@
   "description": "terminal release script",
   "main": "index.js",
   "keywords": ["release", "terminal", "script"],
-  "author": "Asad Razvi <x@y.com>",
+  "author": "Asad Razvi <p@q.com>",
   "license": "ISC",
   "scripts": {
     "release:patch" :"node ./release.js patch",
